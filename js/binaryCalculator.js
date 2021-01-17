@@ -1,6 +1,6 @@
 
 const displayEl = document.getElementById('res');
-let displayValue = 0
+let displayValue = '';
 
 const button0El = document.getElementById('btn0');
 const button1El = document.getElementById('btn1');
@@ -57,7 +57,7 @@ buttonDivEl && buttonDivEl.addEventListener('click', (event)=>{
 });
 
 buttonClrEl && buttonClrEl.addEventListener('click', (event)=>{
-    displayValue  = displayValue.toString().slice(0, displayValue.toString().length - 1);
+    displayValue  = '';
     updateDisplay()
 });
 
