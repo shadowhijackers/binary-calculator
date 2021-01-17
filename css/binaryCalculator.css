@@ -1,0 +1,37 @@
+.binary-calculator{
+    width: 33%;
+}
+
+.binary-calculator .binary-calculator__result{
+    background-color: lightgray;
+    border: solid;
+    height: 48px;
+    font-size: 20px;
+}
+
+.binary-calculator .binary-calculator__btn_operand{
+    background-color: lightgray;
+    color: brown;
+}
+
+.binary-calculator .binary-calculator__btn_result{
+    background-color: darkgreen;
+    color: white;
+}
+
+.binary-calculator .binary-calculator__operators button{
+    background-color: black;
+    color: red;
+}
+
+.binary-calculator button{
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0;
+    float: left;
+}
+
+.binary-calculator section{
+    clear: both;
+}
